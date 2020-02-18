@@ -10,9 +10,31 @@
 <body>
     <div class="container">
         <div class="jumbotron">
-            <p class="display-1">Year Validator.</p> 
+            <p class="display-1">Leap Year Validator.</p> 
+        </div>
+        
+        <div class="row entry">
+            <div class="col-md-12">
+                <h1 class="">Enter the year bellow.</h1>
+            </div>
+            <div class="col-md-12">
+                <form action="">
+                    <div class="input-group input-group-lg">
+                        <div class="input-group-prepend">
+                          <span class="input-group-text" id="inputGroup-sizing-lg">Year</span>
+                        </div>
+                        <input id="year_input" type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg">
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="col-md-12">
+            <button type="button" class="btn btn-primary btn-lg btn-block" onclick="finder();">Check validity</button>
+        </div>
+        <div class="col-md-12 display-4" id="list">
+
         </div>
     </div>
     <script src="js/scripts.js"></script>
-</body>
+</body> 
 </html>
